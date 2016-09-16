@@ -1,0 +1,13 @@
+[Files]
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\AppxManifest.xml" "AppxManifest.xml"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\Atbash.exe" "Atbash.exe"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\Logo.scale-240.png" "Assets\Logo.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\SmallLogo.scale-240.png" "Assets\SmallLogo.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\SplashScreen.scale-240.png" "Assets\SplashScreen.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\Square71x71Logo.scale-240.png" "Assets\Square71x71Logo.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\StoreLogo.scale-240.png" "Assets\StoreLogo.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\Assets\WideLogo.scale-240.png" "Assets\WideLogo.scale-240.png"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\Atbash.xr.xml" "Atbash.xr.xml"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\App.xbf" "App.xbf"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\MainPage.xbf" "MainPage.xbf"
+"C:\Users\Ian Smith\Documents\Visual Studio 2015\Projects\Atbash\Atbash\bin\Release\resources.pri" "resources.pri"
