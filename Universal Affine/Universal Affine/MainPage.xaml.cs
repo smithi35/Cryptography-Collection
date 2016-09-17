@@ -35,12 +35,21 @@ namespace Universal_Affine
             try
             {
                 int shift = int.Parse(Shift.Text);
+                shift = shift % 26;
                 try
                 {
                     int multiplier = int.Parse(Multiplier.Text);
-                    string text = Content.Text;
-                    Affine cipher = new Affine { Shift = shift, Multiplier = multiplier, Content = text };
-                    Content.Text = cipher.Encode();
+
+                    if (Affine.isPossibleMultiplier(multiplier))
+                    {
+                        string text = Content.Text;
+                        Affine cipher = new Affine { Shift = shift, Multiplier = multiplier, Content = text };
+                        Content.Text = cipher.Encode();
+                    }
+                    else
+                    {
+                        Multiplier.Text = "Please enter a valid multiplier";
+                    }
                 }
                 catch (FormatException exc)
                 {
@@ -58,12 +67,20 @@ namespace Universal_Affine
             try
             {
                 int shift = int.Parse(Shift.Text);
+                shift = shift % 26;
                 try
                 {
                     int multiplier = int.Parse(Multiplier.Text);
-                    string text = Content.Text;
-                    Affine cipher = new Affine { Shift = shift, Multiplier = multiplier, Content = text };
-                    Content.Text = cipher.Decode();
+                    if (Affine.isPossibleMultiplier(multiplier))
+                    {
+                        string text = Content.Text;
+                        Affine cipher = new Affine { Shift = shift, Multiplier = multiplier, Content = text };
+                        Content.Text = cipher.Decode();
+                    }
+                    else
+                    {
+                        Multiplier.Text = "Please enter a valid multiplier";
+                    }
                 }
                 catch (FormatException exc)
                 {
