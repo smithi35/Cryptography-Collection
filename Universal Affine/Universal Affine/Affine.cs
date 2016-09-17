@@ -26,7 +26,7 @@ namespace Universal_Affine
                 {
                     letterValue = letterValue * Multiplier + Shift;
                     letterValue = letterValue % 26;
-                    letterValue += 'A';
+                    letterValue += 'A'; 
                     char outputLetter = (char)letterValue;
                     output = output + outputLetter;
                 }
