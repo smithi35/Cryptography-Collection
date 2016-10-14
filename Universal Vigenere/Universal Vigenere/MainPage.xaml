@@ -8,10 +8,10 @@
     mc:Ignorable="d">
 
     <RelativePanel>
-        <TextBlock x:Name="Title" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" FontSize="25"/>
+        <TextBlock x:Name="Title" Text="Vigenere Cipher" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" FontSize="25"/>
         <TextBox x:Name="Key" PlaceholderText="Key" RelativePanel.Below="Title" TextWrapping="Wrap" Height="31" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
         <TextBlock x:Name="placeholder" RelativePanel.Below="Key"></TextBlock>
-        <TextBox x:Name="Textbox" RelativePanel.Below="placeholder" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="Encode"/>
+        <TextBox x:Name="Textbox" TextWrapping="Wrap" RelativePanel.Below="placeholder" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="Encode" TextAlignment="Left"/>
         <Button x:Name="Encode" Content="Encode" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.LeftOf="Decode"/>
         <Button x:Name="Decode" Content="Decode" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"/>
     </RelativePanel>
