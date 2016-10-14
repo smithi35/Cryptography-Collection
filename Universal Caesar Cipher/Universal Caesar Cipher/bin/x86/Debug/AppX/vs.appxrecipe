@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e12f68e7-9d11-4c4a-8c47-9b2b67683c9f</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ian Smith</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-06T01:16:13.397</Modified>
+      <Modified>2016-10-14T03:01:22.171</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Universal Caesar Cipher.exe">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Universal Caesar Cipher.exe">
       <PackagePath>entrypoint\Universal Caesar Cipher.exe</PackagePath>
-      <Modified>2016-09-06T01:16:11.814</Modified>
+      <Modified>2016-10-14T03:01:21.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ian Smith\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,59 +448,59 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T04:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-09-05T21:27:56.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T22:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Universal Caesar Cipher.xr.xml">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Universal Caesar Cipher.xr.xml">
       <PackagePath>Universal Caesar Cipher.xr.xml</PackagePath>
-      <Modified>2016-09-06T01:10:29.590</Modified>
+      <Modified>2016-10-14T03:01:20.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-08-04T22:36:53.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-06T01:16:13.137</Modified>
+      <Modified>2016-10-14T03:01:21.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ian smith\documents\visual studio 2015\Projects\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Core\Universal Caesar Cipher.exe">
+    <AppxPackagedFile Include="C:\Work\Cryptography\Universal Caesar Cipher\Universal Caesar Cipher\bin\x86\Debug\Core\Universal Caesar Cipher.exe">
       <PackagePath>Universal Caesar Cipher.exe</PackagePath>
-      <Modified>2016-09-06T01:16:13.391</Modified>
+      <Modified>2016-10-14T03:01:22.166</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
