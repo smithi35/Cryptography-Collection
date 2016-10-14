@@ -10,7 +10,8 @@
     <RelativePanel>
         <TextBlock x:Name="Title" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
         <TextBox x:Name="Key" PlaceholderText="Key" RelativePanel.Below="Title" TextWrapping="Wrap" Height="31" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
-        <TextBox x:Name="Textbox" RelativePanel.Below="Key" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="Encode"/>
+        <TextBlock x:Name="placeholder" RelativePanel.Below="Key"></TextBlock>
+        <TextBox x:Name="Textbox" RelativePanel.Below="placeholder" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="Encode"/>
         <Button x:Name="Encode" Content="Encode" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.LeftOf="Decode"/>
         <Button x:Name="Decode" Content="Decode" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"/>
     </RelativePanel>
