@@ -7,11 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <RelativePanel>
         <TextBlock x:Name="Title" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Caesar Cipher" FontSize="25"/>
         <TextBox x:Name="Offset" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="Title" PlaceholderText="Offset"/>
         <TextBlock x:Name="placeholder" RelativePanel.Below="Offset"></TextBlock>
-        <TextBox x:Name="Input" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="placeholder" PlaceholderText="Enter message here"/>
+        <TextBox x:Name="Input" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="placeholder" PlaceholderText="Enter message here" RelativePanel.AlignBottomWith=""/>
         <Button x:Name="Encode" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" VerticalAlignment="Bottom" FontSize="35" Height="72" Width="500" Content="Encode" Margin="10,0,0,10"></Button>
         <Button x:Name="Decode" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" VerticalAlignment="Bottom" FontSize="35" Height="72" Width="500" Content="Decode" Margin="0,0,10,10"></Button>
     </RelativePanel>

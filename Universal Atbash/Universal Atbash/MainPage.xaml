@@ -7,9 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
-        <Button x:Name="Encode" Content="Encode" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="71" Width="400" Margin="788,0,0,10"/>
-        <TextBlock x:Name="Title" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Atbash Cipher" VerticalAlignment="Top" Height="33" Width="390" FontSize="30" TextAlignment="Center" Margin="788,10,0,0"/>
-        <TextBox x:Name="Text" HorizontalAlignment="Left" Margin="0,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="829" Width="1910"/>
-    </Grid>
+    <RelativePanel>
+        <Button x:Name="Encode" Content="Encode" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" FontSize="25"/>
+        <TextBlock x:Name="Title" Text="Atbash Cipher" FontSize="25" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+        <TextBox x:Name="Text" PlaceholderText="Enter message" RelativePanel.Below="Title" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+    </RelativePanel>
 </Page>

@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <RelativePanel>
-        <TextBlock x:Name="Title" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+        <TextBlock x:Name="Title" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" FontSize="25"/>
         <TextBox x:Name="Key" PlaceholderText="Key" RelativePanel.Below="Title" TextWrapping="Wrap" Height="31" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
         <TextBlock x:Name="placeholder" RelativePanel.Below="Key"></TextBlock>
         <TextBox x:Name="Textbox" RelativePanel.Below="placeholder" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Above="Encode"/>
